@@ -1,13 +1,3 @@
--- require 'socket'
-
--- 
-
--- assert()
-
--- a = ''
-
--- see what we want it express result
--- 参考{programming in lua 12 序列化}
 function  var_dum( o )
 	-- body
 	if type(o) == 'number' then
@@ -34,23 +24,3 @@ function  var_dum( o )
 		error('dont know type')
 	end
 end
-
--- function echo(fmt,...)
--- 	-- body
--- 	-- print()
--- 	-- print(...)
--- 	print(string.format(fmt,...))
--- end
-
--- echo('1,dfa2,2,3,3,4,5,%d,%d,%d,',6,7,8,9,10)
-
--- a = '1\\'
--- var_dum({1,2,3,4,})
--- print('')
--- print(tostring(1))
-
-
-var_dum({1,2,34,5,6,web = {12,2,3,4,5},function ()
-	print(1)
-end})
-
