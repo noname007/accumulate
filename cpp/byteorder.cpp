@@ -5,14 +5,14 @@
 
 void type_use_byte(){
 	// print
-	printf("char %d\n",sizeof(char));
-	printf("short %d\n",sizeof(short));
-	printf("int %d\n",sizeof(int));
-	printf("float %d\n",sizeof(float));
-	printf("double %d\n",sizeof(double));
-	printf("long %d\n",sizeof(long));
-	printf("long long int %d\n",sizeof(long long int));
-	printf("long double %d\n",sizeof(long double));
+	printf("char %lld\n",sizeof(char));
+	printf("short %lld\n",sizeof(short));
+	printf("int %lld\n",sizeof(int));
+	printf("float %lld\n",sizeof(float));
+	printf("double %lld\n",sizeof(double));
+	printf("long %lld\n",sizeof(long));
+	printf("long long int %lld\n",sizeof(long long int));
+	printf("long double %lld\n",sizeof(long double));
 	printf("---------------------------------------------------------------------\n");
 	// printf("%d\n",sizeof(float));
 	// printf("%d\n",sizeof(float));

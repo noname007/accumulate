@@ -57,6 +57,8 @@ delimiter = ''
 # print (delimiter.join(mylist))
 
 import sys
+
+print(__name__)
 # print ("脚本名：", sys.argv[0])
 # for i in range(1, len(sys.argv)):
 #     print ("参数", i, sys.argv[i] )
@@ -64,6 +66,8 @@ import sys
 # print(eval(sys.argv[1]))
 # 
 input_string  = delimiter.join(sys.argv[1:])
+
+print()
 
 # print(input_string)
 
