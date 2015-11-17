@@ -22,4 +22,7 @@ end
 
 p((latex2xml("\\title{the \\bold{big} example}")))
 
-io.read()
+a = 'hello'
+b = 'world'
+print(a..b)
+-- io.read()
