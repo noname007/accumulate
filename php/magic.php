@@ -23,3 +23,5 @@
 	$a->get();
 	$a->set();
 	$a->get();
+	$a = false;
+	var_dump(empty($a));
